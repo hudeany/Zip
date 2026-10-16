@@ -1,0 +1,14 @@
+*.class
+
+*.jar
+*.zip
+*.tar.gz
+
+hs_err_pid*
+replay_pid*
+/bin/
+/build/
+/build.version
+/lib_test/
+/lib/
+/lib_build/
