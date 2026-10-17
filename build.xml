@@ -10,7 +10,7 @@
 	<property name="zip4j.version" value="2.11.6" />
 
 	<!-- Special: AntBuildHelp is used to download the runtime libraries -->
-	<property name="antbuildhelp.version" value="26.0.11" />
+	<property name="antbuildhelp.version" value="26.0.12" />
 
 	<available file="lib_build/antbuildhelp-${antbuildhelp.version}.jar" property="antbuildhelp.available" />
 	<target name="get_antbuildhelp" unless="antbuildhelp.available">
