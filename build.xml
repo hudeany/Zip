@@ -9,6 +9,10 @@
 	<property name="commons-compress.version" value="1.28.0" />
 	<property name="zip4j.version" value="2.11.6" />
 
+	<!-- Maven POM dependencies: "groupId:artifactId:version[:optional]" -->
+	<property name="mavenDependency.commons-compress" value="org.apache.commons:commons-compress:${commons-compress.version}" />
+	<property name="mavenDependency.zip4j" value="net.lingala.zip4j:zip4j:${zip4j.version}" />
+
 	<!-- Special: AntBuildHelp is used to download the runtime libraries -->
 	<property name="antbuildhelp.version" value="26.0.12" />
 
