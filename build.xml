@@ -7,10 +7,14 @@
 
 	<!-- Dependency versions -->
 	<property name="commons-compress.version" value="1.28.0" />
+	<property name="commons-io.version" value="2.22.0" />
+	<property name="commons-lang3.version" value="3.18.0" />
 	<property name="zip4j.version" value="2.11.6" />
 
 	<!-- Maven POM dependencies: "groupId:artifactId:version[:optional]" -->
 	<property name="mavenDependency.commons-compress" value="org.apache.commons:commons-compress:${commons-compress.version}" />
+	<property name="mavenDependency.commons-io" value="commons-io:commons-io:${commons-io.version}" />
+	<property name="mavenDependency.commons-lang3" value="org.apache.commons:commons-lang3:${commons-lang3.version}" />
 	<property name="mavenDependency.zip4j" value="net.lingala.zip4j:zip4j:${zip4j.version}" />
 
 	<!-- Special: AntBuildHelp is used to download the runtime libraries -->
@@ -40,6 +44,8 @@
 		</delete>
 
 		<getMavenDependency groupId="org.apache.commons" artifactId="commons-compress" version="${commons-compress.version}" />
+		<getMavenDependency groupId="commons-io" artifactId="commons-io" version="${commons-io.version}" />
+		<getMavenDependency groupId="org.apache.commons" artifactId="commons-lang3" version="${commons-lang3.version}" />
 		<getMavenDependency groupId="net.lingala.zip4j" artifactId="zip4j" version="${zip4j.version}" />
 	</target>
 
