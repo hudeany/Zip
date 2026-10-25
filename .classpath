@@ -19,5 +19,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/commons-io-2.22.0.jar"/>
 	<classpathentry kind="lib" path="lib/commons-lang3-3.21.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/6"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
